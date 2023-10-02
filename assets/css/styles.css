@@ -6,6 +6,8 @@
 
 :root{
     --primary: #0d6efd;
+    --section-bg: #f6f9fe;
+    --title-bg: #e7f1fd;
 }
 
 body{
@@ -19,6 +21,14 @@ a{
 }
 a:hover{
     cursor: pointer;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-600{
+    font-weight: 600;
 }
 
 /* NavBar ==>START */
@@ -69,7 +79,74 @@ a:hover{
 }
 /* Hero Section ==>END */
 
-/*  */
+/* Cards Section ==>START */
 .cards-section .card{
     max-width: 19.5rem;
 }
+/* Cards Section ==>END */
+/* About section ==>START */
+.about__info{
+    background-color: var(--section-bg);
+}
+
+.about__info i{
+    color: var(--primary);
+    box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+}
+
+.about__info h6{
+    background-color: var(--title-bg);
+}
+
+.about__info ul li h5{
+    color: #555555;
+    font-size: 1.125rem;
+}
+
+.about__tech .tech__list li p{
+    font-size: 0.8rem;
+}
+
+.about__tech .tech__list li .bar{
+    background-color: #E2EEFD;
+}
+
+.tech__list #html .percent{
+    width: 100%;
+}
+.tech__list #php .percent{
+    width: 80%;
+}
+
+.tech__list #css .percent{
+    width: 90%;
+}
+.tech__list #wordpress .percent{
+    width: 90%;
+}
+.tech__list #javascript .percent{
+    width: 75%;
+}
+.tech__list #photoshop .percent{
+    width: 55%;
+}
+
+.tech__states li div{
+    background-color: #f1f6fe;
+}
+.tech__states i{
+    padding: 0.75rem;
+    top: -1.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tech__states .states__number{
+    color: #062b5b;
+}
+
+.about__clients{
+    background-color: #f1f6fe;
+}
+/* About section ==>END */
+
