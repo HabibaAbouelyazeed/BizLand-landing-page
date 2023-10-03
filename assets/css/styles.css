@@ -244,3 +244,50 @@ a:hover{
     transform: rotate(45deg);
 }
 /* Pricing section ==>END */
+/* FAQ section ==>START */
+.faq-section{
+    background-color: var(--section-bg);
+}
+
+.faq-section .accordion-item{
+    border-bottom: 1px solid #d4e5fc;
+}
+
+
+.faq-section .accordion-item button, .faq-section .accordion-item .accordion-body{
+    background-color: var(--section-bg);
+}
+
+.faq-section .accordion-item button:hover{
+    color: var(--primary);
+}
+
+.faq-section .accordion-button{
+    position: relative;
+    padding-left: 2rem;
+}
+.faq-section .accordion-button::after{
+    position: absolute;
+    left: 0;
+}
+/* FAQ section ==>END */
+/* Contact us section ==>START */
+.contactUs-section .contact__info .card i{
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 2px dotted #b3d1fa;
+    position: relative;
+}
+
+.contactUs-section .contact__info .card i::before{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translatex(-50%);
+}
+/* Contact us section ==>END */
+/* Newsletter section ==>START */
+.newsletter-section{
+    background-color: var(--section-bg);
+}
+/* Newsletter section ==>END */
