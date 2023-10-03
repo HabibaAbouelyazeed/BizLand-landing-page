@@ -171,3 +171,40 @@ a:hover{
 }
 /* Services section ==>END */
 
+/* Client Feedback section ==>START */
+.client-feedback-section{
+    position: relative;
+}
+
+.client-feedback-section::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-image: url("../imgs/testimonials-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(30%);
+}
+
+.client-feedback-section .container{
+    position: relative;
+}
+
+.client-feedback-section .carousel-indicators button{
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.client-feedback-section .carousel-indicators button.active{
+    background-color: var(--primary);
+}
+
+.client-feedback-section .carousel-item img{
+    width: 6rem;
+    border :6px solid rgba(255, 255, 255, 0.15);
+}
+/* Client Feedback section ==>END */
