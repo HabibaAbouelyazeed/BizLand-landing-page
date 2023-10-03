@@ -7,6 +7,7 @@
 :root{
     --primary: #0d6efd;
     --section-bg: #f6f9fe;
+    --section-bg-2: #f1f6fe;
     --title-bg: #e7f1fd;
 }
 
@@ -36,6 +37,10 @@ a:hover{
 }
 
 /* NavBar ==>START */
+/* .page-header .social-links{
+    display: none;
+} */
+
 .navbar-nav .nav-item .nav-link{
     color: #222222;
 }
@@ -285,9 +290,28 @@ a:hover{
    left: 50%;
    transform: translatex(-50%);
 }
+@media (max-width: 768px){
+    .contactUs-section iframe{
+        height: 25rem;
+    }
+}
 /* Contact us section ==>END */
 /* Newsletter section ==>START */
 .newsletter-section{
-    background-color: var(--section-bg);
+    background-color: var(--section-bg-2);
 }
 /* Newsletter section ==>END */
+/* Footer ==>START */
+.page-footer{
+    font-size: 0.875rem;
+    color: #777777;
+}
+
+.page-footer .nav-list li:hover{
+    color: var(--primary);
+}
+
+.page-footer .copyrights{
+    background-color: var(--section-bg-2);
+}
+/* Footer ==>END */
