@@ -208,3 +208,12 @@ a:hover{
     border :6px solid rgba(255, 255, 255, 0.15);
 }
 /* Client Feedback section ==>END */
+/* Portfolio section ==>START */
+.portfolio-section ul li a.active{
+    color: var(--primary);
+}
+
+.portfolio-section ul li a:hover{
+    color: var(--primary);
+}
+/* Portfolio section ==>END */
