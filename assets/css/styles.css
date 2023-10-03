@@ -217,3 +217,30 @@ a:hover{
     color: var(--primary);
 }
 /* Portfolio section ==>END */
+/* Our Team section ==>START */
+.ourTeam-section{
+    background-color: var(--section-bg);
+}
+/* Our Team section ==>END */
+/* Pricing section ==>START */
+.pricing-section .card h6, .pricing-section .card .card-button{
+    color: #777777;
+    background: #f8f8f8;
+}
+
+.pricing-section .card #ultimatePckg{
+    position: relative;
+}
+
+.pricing-section .card #ultimatePckg::after{
+    content: "Advanced";
+    position: absolute;
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: white;
+    right: -15%;
+    background-color: var(--primary);
+    padding: 0.3rem 3rem;
+    transform: rotate(45deg);
+}
+/* Pricing section ==>END */
